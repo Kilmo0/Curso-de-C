@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
 
     double quilos = 1.0E3;
