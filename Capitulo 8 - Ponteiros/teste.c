@@ -2,13 +2,14 @@
 
 int main(void) {
 
-    int joao;
-    joao = 1;
+    FILE *fp;
+    char s[100];
 
-    printf("%d\n", &joao);
+    printf("Por favor digite o nome de um arquivo: ");
+    scanf("%s", s);
+    fp = fopen(s, "w");
 
-
-
+    fclose(fp);
 
     return 0;
 }
